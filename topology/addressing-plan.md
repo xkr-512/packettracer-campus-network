@@ -13,3 +13,7 @@ This lab models a small campus site with centralized services (DHCP/DNS) and a s
 
 ## WAN transit (R1–R2)
 - 10.0.0.0/30 — R1 10.0.0.1, R2 10.0.0.2 (OSPF area 0)
+
+## DHCP is used for client hosts
+- VLAN10 pool: 192.168.10.100-192.168.10.149
+- VLAN110 pool: 192.168.110.100-192.168.110.149
